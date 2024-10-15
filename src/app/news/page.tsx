@@ -1,12 +1,13 @@
-import React from 'react'
+import NewsList from "@/components/news/NewsList"
 
-const Newspage  = () => {
+
+const Newspage = () => {
   return (
-    <div>
-      
-    </div>
+    <section className="py-12">
+      <h2 className="text-2xl font-bold mb-8">Latest News</h2>
+      <NewsList/>
+    </section>
   )
 }
 
 export default Newspage
-
